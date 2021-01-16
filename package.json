@@ -1,0 +1,31 @@
+{
+  "name": "nodemailer_tests",
+  "version": "1.0.0",
+  "description": "Various nodemailer scripts to check mail port, auth, and encryption options",
+  "main": "test_25_insecure_login.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lspiehler/nodemailer_tests.git"
+  },
+  "keywords": [
+    "nodemailer",
+    "test",
+    "smtp",
+    "tls",
+    "ssl",
+    "port",
+    "authentication"
+  ],
+  "author": "Lyas Spiehler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lspiehler/nodemailer_tests/issues"
+  },
+  "homepage": "https://github.com/lspiehler/nodemailer_tests#readme",
+  "dependencies": {
+    "nodemailer": "^6.4.17"
+  }
+}
